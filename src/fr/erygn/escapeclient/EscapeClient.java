@@ -1,7 +1,9 @@
 package fr.erygn.escapeclient;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -25,9 +27,12 @@ public class EscapeClient {
 				
 		//Le JLabel du décompte
 		decompte = new JLabel("0");
+		decompte.setFont(new Font("Verdana", Font.PLAIN, 38));
+		decompte.setForeground(Color.white);
 			
 		//Panel CountDown
-		mainPanel = new JPanel();
+		mainPanel = new JPanel(new BorderLayout());
+		mainPanel.setBackground(new Color(25, 25, 25));
 		mainPanel.add(decompte, BorderLayout.CENTER);
 		
 		//TextField pour définir le temps de décompte

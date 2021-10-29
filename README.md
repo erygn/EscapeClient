@@ -1,1 +1,1 @@
-HydroTemp - Application pour manipuler Java et afficher la température des rivières en France
+EscapeClient - Application pour manipuler Java et afficher un timer pour réaliser des escape games
